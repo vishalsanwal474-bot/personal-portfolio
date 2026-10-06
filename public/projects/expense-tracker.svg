@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024"
+     viewBox="0 0 1024 1024">
+  <title>Logo Vector</title>
+  <defs>
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28F0EA"/>
+      <stop offset="52%" stop-color="#35BFEF"/>
+      <stop offset="100%" stop-color="#8A6CFF"/>
+    </linearGradient>
+    <linearGradient id="orangePink" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9D24"/>
+      <stop offset="45%" stop-color="#FF7B67"/>
+      <stop offset="100%" stop-color="#F02BAE"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#cyanPurple)" stroke="none">
+    <path d="M 369 932 L 376 939 L 913 940 L 930 934 L 939 925 L 945 905 L 907 810 L 896 797 L 885 792 L 762 791 L 731 804 L 708 805 L 665 791 L 498 791 L 487 795 L 474 806 L 373 919 Z"/><path d="M 1051 329 L 1038 320 L 1016 322 L 891 387 L 889 412 L 915 430 L 914 441 L 715 707 L 692 705 L 575 601 L 555 597 L 542 603 L 290 878 L 279 901 L 286 928 L 302 939 L 319 938 L 334 928 L 562 683 L 576 687 L 686 781 L 718 786 L 747 774 L 973 478 L 991 472 L 1014 485 L 1037 479 L 1054 354 Z"/><path d="M 848 333 L 820 320 L 340 321 L 299 335 L 286 350 L 277 379 L 280 840 L 296 842 L 412 716 L 417 659 L 430 642 L 482 638 L 530 592 L 556 580 L 584 587 L 635 628 L 657 631 L 676 617 L 721 548 L 719 527 L 696 514 L 436 513 L 418 497 L 417 467 L 424 454 L 441 448 L 779 447 L 800 433 L 851 351 Z"/>
+  </g>
+  <!-- The central rising arrow is recreated as a clean vector path. -->
+  <path fill="url(#orangePink)" d="
+    M 252 747
+    L 432 567
+    Q 450 549 469 568
+    L 551 650
+    Q 566 665 582 646
+    L 760 426
+    L 723 405
+    Q 707 394 721 378
+    L 820 316
+    Q 842 303 839 330
+    L 829 430
+    Q 827 452 808 442
+    L 777 424
+    L 598 689
+    Q 565 735 525 700
+    L 446 628
+    L 287 788
+    Q 264 809 246 788
+    Q 235 773 252 747 Z"/>
+</svg>

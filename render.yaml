@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: vishal-sanwal-portfolio
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm install --prefix server && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_ORIGIN
+        value: "*"
+      - key: AI_API_KEY
+        sync: false
+      - key: AI_MODEL
+        value: gpt-4o-mini
+      - key: AI_PROVIDER
+        value: openai
+      - key: AI_BASE_URL
+        value: https://api.openai.com/v1
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: ADMIN_JWT_SECRET
+        sync: false
+      - key: NODE_VERSION
+        value: "20"
