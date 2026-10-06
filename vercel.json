@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://personal-portfolio-bg03.onrender.com/api/:path*"
+    },
+    {
+      "source": "/resume/:path*",
+      "destination": "https://personal-portfolio-bg03.onrender.com/resume/:path*"
+    }
+  ]
+}
